@@ -20,11 +20,6 @@ const TransactionList = ({ navigation }) => {
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
         <FlatList
-          // ItemSeparatorComponent={() => (
-          //   <View
-          //     style={{ backgroundColor: "gray", height: 1, marginVertical: 4 }}
-          //   />
-          // )}
           showsVerticalScrollIndicator={false}
           data={SCHEDULE}
           renderItem={({ item }) => {

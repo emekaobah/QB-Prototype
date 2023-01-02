@@ -37,7 +37,7 @@ const HomeNavigator = () => {
             null;
           },
           headerRight: () => null,
-          headerTitle: "Home",
+          headerTitle: "",
         }}
         name="Loans"
         component={LoanFeed}

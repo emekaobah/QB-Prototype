@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import { Ionicons } from "@expo/vector-icons";
 
 const Search = ({ title, placeholder }) => {
+    const [data, setData] = useState('')
+    const[filteredData, setFilteredData] = useState('')
+    
   return (
     <View style={styles.background}>
       <View style={styles.icon}>
